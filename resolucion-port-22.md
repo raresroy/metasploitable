@@ -58,7 +58,7 @@ creamos un entorno virtual para la correcta ejecucion del ssh-enum.py
 ```
 python3 -m venv venv
 source venv/bin/activate
-ip install paramiko==2.11.0
+pip install paramiko==2.11.0
 ```
 
 usamos ssh-enum.py y guardamos todo en usuarios.txt
